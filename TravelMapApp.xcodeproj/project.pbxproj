@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E4A80F802C6B835E001FBA25 /* Location.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4A80F7F2C6B835E001FBA25 /* Location.swift */; };
 		E4B06F722C6A3069009B8F48 /* TravelMapAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4B06F712C6A3069009B8F48 /* TravelMapAppApp.swift */; };
 		E4B06F742C6A3069009B8F48 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4B06F732C6A3069009B8F48 /* ContentView.swift */; };
 		E4B06F762C6A306B009B8F48 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E4B06F752C6A306B009B8F48 /* Assets.xcassets */; };
@@ -34,6 +35,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		E4A80F7F2C6B835E001FBA25 /* Location.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Location.swift; sourceTree = "<group>"; };
 		E4B06F6E2C6A3069009B8F48 /* TravelMapApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TravelMapApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E4B06F712C6A3069009B8F48 /* TravelMapAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TravelMapAppApp.swift; sourceTree = "<group>"; };
 		E4B06F732C6A3069009B8F48 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -71,6 +73,28 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		E4A80F7C2C6B82D3001FBA25 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		E4A80F7D2C6B82E0001FBA25 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		E4A80F7E2C6B82EB001FBA25 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				E4A80F7F2C6B835E001FBA25 /* Location.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
 		E4B06F652C6A3069009B8F48 = {
 			isa = PBXGroup;
 			children = (
@@ -96,6 +120,9 @@
 			children = (
 				E4B06F712C6A3069009B8F48 /* TravelMapAppApp.swift */,
 				E4B06F732C6A3069009B8F48 /* ContentView.swift */,
+				E4A80F7C2C6B82D3001FBA25 /* Views */,
+				E4A80F7D2C6B82E0001FBA25 /* ViewModels */,
+				E4A80F7E2C6B82EB001FBA25 /* Models */,
 				E4B06F752C6A306B009B8F48 /* Assets.xcassets */,
 				E4B06F772C6A306B009B8F48 /* Preview Content */,
 			);
@@ -258,6 +285,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E4B06F742C6A3069009B8F48 /* ContentView.swift in Sources */,
+				E4A80F802C6B835E001FBA25 /* Location.swift in Sources */,
 				E4B06F722C6A3069009B8F48 /* TravelMapAppApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
