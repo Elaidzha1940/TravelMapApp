@@ -1,4 +1,4 @@
-⌨️ TravelMapApp.
+⌨️ Travel Map App.
 ======
 
 ------
