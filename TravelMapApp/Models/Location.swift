@@ -1,6 +1,6 @@
 //  /*
 //
-//  Project: TravelMapApp
+//  Project: TravelMap
 //  File: Location.swift
 //  Created by: Elaidzha Shchukin
 //  Date: 13.08.2024
@@ -18,7 +18,7 @@ struct Location: Identifiable {
     let imageNames: [String]
     let link: String
     
-    // Identifiable
+    // IdentifiableTravelMap
     var id: String {
         // name = "Angkor Wat"
         // cityName = "Siem Reap"

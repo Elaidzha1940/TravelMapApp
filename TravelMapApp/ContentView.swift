@@ -1,6 +1,6 @@
 //  /*
 //
-//  Project: TravelMapApp
+//  Project: TravelMap
 //  File: ContentView.swift
 //  Created by: Elaidzha Shchukin
 //  Date: 12.08.2024
