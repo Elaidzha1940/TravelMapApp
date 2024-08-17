@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E4A0E7792C710180002DE22A /* LocationsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4A0E7782C710180002DE22A /* LocationsView.swift */; };
 		E4A80F802C6B835E001FBA25 /* Location.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4A80F7F2C6B835E001FBA25 /* Location.swift */; };
 		E4A80F832C6B863B001FBA25 /* LocationDataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4A80F822C6B863B001FBA25 /* LocationDataService.swift */; };
 		E4B06F722C6A3069009B8F48 /* TravelMapAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4B06F712C6A3069009B8F48 /* TravelMapAppApp.swift */; };
@@ -36,6 +37,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		E4A0E7782C710180002DE22A /* LocationsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationsView.swift; sourceTree = "<group>"; };
 		E4A80F7F2C6B835E001FBA25 /* Location.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Location.swift; sourceTree = "<group>"; };
 		E4A80F822C6B863B001FBA25 /* LocationDataService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationDataService.swift; sourceTree = "<group>"; };
 		E4B06F6E2C6A3069009B8F48 /* TravelMapApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TravelMapApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -78,6 +80,7 @@
 		E4A80F7C2C6B82D3001FBA25 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				E4A0E7782C710180002DE22A /* LocationsView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -297,6 +300,7 @@
 			files = (
 				E4A80F832C6B863B001FBA25 /* LocationDataService.swift in Sources */,
 				E4B06F742C6A3069009B8F48 /* ContentView.swift in Sources */,
+				E4A0E7792C710180002DE22A /* LocationsView.swift in Sources */,
 				E4A80F802C6B835E001FBA25 /* Location.swift in Sources */,
 				E4B06F722C6A3069009B8F48 /* TravelMapAppApp.swift in Sources */,
 			);
