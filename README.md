@@ -10,10 +10,9 @@ Features
 
 Requirements
 -------
-iOS 15.0+
-Xcode 13.0+
-Swift 5.0+
 
-
-
+- iOS 15.0+
+- Xcode 13.0+
+- Swift 5.0+
 ------
+
