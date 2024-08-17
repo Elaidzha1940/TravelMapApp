@@ -9,14 +9,23 @@
 
 import SwiftUI
 
-class LocationsViewModel: ObservedObject {
+class LocationsViewModel: ObservableObject {
+    @Published var locations: [Location]
     
+    init() {
+        let locations = LocationsDataService.location
+        self.locations = locations
+    }
 }
 
 struct LocationsView: View {
+    @StateObject private var vm = LocationsViewModel()
+    
     var body: some View {
-        VStack {
-            
+        List {
+            ForEach(vm.locations) {
+                Text($0.name)
+            }
         }
     }
 }
