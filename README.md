@@ -1,7 +1,7 @@
 ⌨️ Travel Map App.
 ======
 
-Features
+Overview
 ------
 
 - Project Setup with Assets & Custom Data Model
