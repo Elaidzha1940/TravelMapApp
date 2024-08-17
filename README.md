@@ -1,8 +1,6 @@
 ⌨️ Travel Map App.
 ======
 
-------
-
 Features
 ------
 
