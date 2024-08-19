@@ -7,7 +7,7 @@ Overview
 - Project Setup with Assets & Custom Data Model
 - Create ViewModel with @StateObject and @EnvironmentObject for MVVM
 - Adding MapKit
-- Menu List
+- Drop-down Menu using a List
 - 
 ------
 
