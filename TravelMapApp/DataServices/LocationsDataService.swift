@@ -17,9 +17,9 @@ class LocationsDataService {
         Location(
             name: "Angkor Wat",
             cityName: "Cam",
-            coordinates: CLLocationCoordinate2D(latitude: 100, longitude: 200),
+            coordinates: CLLocationCoordinate2D(latitude: 13.4125, longitude: 103.8670), /*13.4125° N, 103.8670° E*/
             description: "Cam",
-            imageNames: ["", "", ""],
+            imageNames: ["angkor-wat", "", ""],
             link: ""),
         
         Location(
