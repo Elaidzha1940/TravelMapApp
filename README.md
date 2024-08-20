@@ -8,6 +8,7 @@ Overview
 - Create ViewModel with @StateObject and @EnvironmentObject for MVVM
 - Adding MapKit
 - Drop-down Menu using a List
+- Location Preview card with asymmetric Transitions
 - 
 ------
 
