@@ -23,35 +23,43 @@ class LocationsDataService {
             link: "https://en.wikipedia.org/wiki/Angkor_Wat"),
         
         Location(
-            name: "Angkor Wat",
-            cityName: "Cam",
+            name: "Angkor Wat 1",
+            cityName: "Siem Reap",
             coordinates: CLLocationCoordinate2D(latitude: 100, longitude: 200),
             description: "Cam",
-            imageNames: ["", "", ""],
+            imageNames: ["angkor-wat1", "", ""],
             link: ""),
         
         Location(
-            name: "Angkor Wat",
-            cityName: "Cam",
+            name: "Waterfall in Phnom Kulen",
+            cityName: "Siem Reap",
             coordinates: CLLocationCoordinate2D(latitude: 100, longitude: 200),
             description: "Cam",
-            imageNames: ["", "", ""],
+            imageNames: ["waterfall-in-phnom-kulen", "", ""],
             link: ""),
         
         Location(
-            name: "Angkor Wat",
-            cityName: "Cam",
+            name: "Siem Reap",
+            cityName: "Siem Reap",
             coordinates: CLLocationCoordinate2D(latitude: 100, longitude: 200),
             description: "Cam",
-            imageNames: ["", "", ""],
+            imageNames: ["bayon-temple", "", ""],
             link: ""),
         
         Location(
-            name: "Angkor Wat",
-            cityName: "Cam",
+            name: "Bayon Temple",
+            cityName: "Siem Reap",
             coordinates: CLLocationCoordinate2D(latitude: 100, longitude: 200),
             description: "Cam",
-            imageNames: ["", "", ""],
+            imageNames: ["siem-reap", "", ""],
+            link: ""),
+        
+        Location(
+            name: "Ta Prohm",
+            cityName: "Siem Reap",
+            coordinates: CLLocationCoordinate2D(latitude: 100, longitude: 200),
+            description: "Cam",
+            imageNames: ["ta-prohm", "", ""],
             link: "")
     ]
 }
