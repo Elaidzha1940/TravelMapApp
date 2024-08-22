@@ -23,25 +23,25 @@ class LocationsDataService {
             link: "https://en.wikipedia.org/wiki/Angkor_Wat"),
         
         Location(
-            name: "Angkor Wat 1",
+            name: "Krong Siem Reap",
             cityName: "Siem Reap",
-            coordinates: CLLocationCoordinate2D(latitude: 100, longitude: 200),
+            coordinates: CLLocationCoordinate2D(latitude: 13.364047, longitude: 103.860313),
             description: "Cam",
             imageNames: ["angkor-wat1", "", ""],
-            link: ""),
+            link: "https://en.wikipedia.org/wiki/Angkor_Wat"),
         
         Location(
-            name: "Waterfall in Phnom Kulen",
-            cityName: "Siem Reap",
-            coordinates: CLLocationCoordinate2D(latitude: 100, longitude: 200),
+            name: "Waterfall",
+            cityName: "Phnom Kulen",
+            coordinates: CLLocationCoordinate2D(latitude: 13.575, longitude: 104.0645),
             description: "Cam",
             imageNames: ["waterfall-in-phnom-kulen", "", ""],
-            link: ""),
+            link: "https://en.wikipedia.org/wiki/Phnom_Kulen_National_Park"),
         
         Location(
             name: "Siem Reap",
             cityName: "Siem Reap",
-            coordinates: CLLocationCoordinate2D(latitude: 100, longitude: 200),
+            coordinates: CLLocationCoordinate2D(latitude: 13.3633, longitude: 103.8564),
             description: "Cam",
             imageNames: ["bayon-temple", "", ""],
             link: ""),
@@ -49,7 +49,7 @@ class LocationsDataService {
         Location(
             name: "Bayon Temple",
             cityName: "Siem Reap",
-            coordinates: CLLocationCoordinate2D(latitude: 100, longitude: 200),
+            coordinates: CLLocationCoordinate2D(latitude: 13.4413, longitude: 103.8589),
             description: "Cam",
             imageNames: ["siem-reap", "", ""],
             link: ""),
@@ -57,7 +57,7 @@ class LocationsDataService {
         Location(
             name: "Ta Prohm",
             cityName: "Siem Reap",
-            coordinates: CLLocationCoordinate2D(latitude: 100, longitude: 200),
+            coordinates: CLLocationCoordinate2D(latitude: 13.4348, longitude: 103.8893),
             description: "Cam",
             imageNames: ["ta-prohm", "", ""],
             link: "")
