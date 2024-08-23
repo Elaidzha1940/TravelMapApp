@@ -9,7 +9,8 @@ Overview
 - Adding MapKit
 - Drop-down Menu using a List
 - Location Preview card with asymmetric Transitions
-- 
+- Custom Map Annotation Pins
+-  
 ------
 
 Requirements
