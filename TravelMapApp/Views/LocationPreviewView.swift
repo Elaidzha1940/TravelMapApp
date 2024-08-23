@@ -26,17 +26,19 @@ struct LocationPreviewView: View {
         }
         .padding(20)
         .background(
-        RoundedRectangle(cornerRadius: 15)
-            .fill(.ultraThinMaterial))
-        .padding()
+            RoundedRectangle(cornerRadius: 15)
+                .fill(.ultraThinMaterial)
+                .offset(y: 65))
+        .cornerRadius(15)
     }
 }
 
 #Preview {
     ZStack {
-        Color.mint.ignoresSafeArea()
+//        Color.mint.ignoresSafeArea()
         
         LocationPreviewView(location: LocationsDataService.location.first!)
+            .padding()
     }
 }
 
