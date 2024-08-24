@@ -10,7 +10,7 @@ Overview
 - Drop-down Menu using a List
 - Location Preview card with asymmetric Transitions
 - Custom Map Annotation Pins
--  
+- Adding Sheet to create a Detail View for Locations
 ------
 
 Requirements
