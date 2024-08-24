@@ -17,6 +17,12 @@ struct LocationsView: View {
         ZStack {
             Map(coordinateRegion: $vm.mapRegion)
                 .ignoresSafeArea()
+            Map(coordinateRegion: $vm.mapRegion,
+                annotationItems: vm.locations) { location in
+                MapMarker(coordinate: location.coordinates) 
+                    //
+                
+            }
             
             VStack {
                 header
