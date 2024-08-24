@@ -38,7 +38,6 @@ struct LocationMapAnnotationView: View {
 
 #Preview {
     ZStack {
-//        Color.black.ignoresSafeArea()
         LocationMapAnnotationView()
     }
 }
