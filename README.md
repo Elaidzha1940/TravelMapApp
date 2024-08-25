@@ -11,6 +11,7 @@ Overview
 - Location Preview card with asymmetric Transitions
 - Custom Map Annotation Pins
 - Adding Sheet to create a Detail View for Locations
+- Update App for iPad, Landscape & dark Mode 
 ------
 
 Requirements
