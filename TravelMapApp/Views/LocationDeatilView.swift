@@ -33,6 +33,8 @@ struct LocationDeatilView: View {
             }
         }
         .ignoresSafeArea()
+        .background(.ultraThinMaterial)
+        .overlay(backButton, alignment: .topLeading)
     }
 }
 
@@ -93,6 +95,23 @@ extension LocationDeatilView {
                     .shadow(radius: 10)
             }
         }
-            .frame(height: 300)
+            .allowsHitTesting(false)
+            .aspectRatio(1, contentMode: .fit)
+            .cornerRadius(20)
+    }
+    
+    private var backButton: some View {
+        Button(action: {
+            vm.sheetLocation = nil
+        }, label: {
+            Image(systemName: "xmark")
+                .font(.system(size: 15, weight: .bold, design: .rounded))
+                .padding(15)
+                .foregroundColor(.primary)
+                .background(.thickMaterial)
+                .cornerRadius(10)
+                .shadow(radius: 4)
+                .padding()
+        })
     }
 }

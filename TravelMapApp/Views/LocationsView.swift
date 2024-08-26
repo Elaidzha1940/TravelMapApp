@@ -25,6 +25,9 @@ struct LocationsView: View {
                 locationsPreviewStack
             }
         }
+        .sheet(item: $vm.sheetLocation, onDismiss: nil) { location in
+            LocationDeatilView(location: location)
+        }
     }
 }
 
@@ -63,7 +66,7 @@ extension LocationsView {
         .shadow(color: .black.opacity(0.3), radius: 20, x: 0, y: 15)
     }
     
-    private var mapLayer: some View { 
+    private var mapLayer: some View {
         Map(coordinateRegion: $vm.mapRegion,
             annotationItems: vm.locations) { location in
             MapAnnotation(coordinate: location.coordinates) {
