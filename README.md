@@ -21,5 +21,3 @@ Requirements
 - Xcode 14.0+
 - Swift 5.0+
 ------
-
-------
