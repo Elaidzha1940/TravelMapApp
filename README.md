@@ -11,7 +11,8 @@ Overview
 - Location Preview card with asymmetric Transitions
 - Custom Map Annotation Pins
 - Adding Sheet to create a Detail View for Locations
-- Update App for iPad, Landscape & dark Mode 
+- Update App for iPad, Landscape & dark Mode
+- Final review of MVVM Architecture and other features
 ------
 
 Requirements
@@ -20,5 +21,4 @@ Requirements
 - iOS 15.0+
 - Xcode 14.0+
 - Swift 5.0+
-------
 ------
