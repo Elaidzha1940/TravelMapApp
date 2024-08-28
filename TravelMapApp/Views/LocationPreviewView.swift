@@ -36,8 +36,6 @@ struct LocationPreviewView: View {
 
 #Preview {
     ZStack {
-        //        Color.mint.ignoresSafeArea()
-        
         LocationPreviewView(location: LocationsDataService.location.first!)
             .padding()
     }
