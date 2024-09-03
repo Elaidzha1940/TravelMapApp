@@ -39,8 +39,9 @@ This project demonstrates advanced iOS development techniques:
 - Device Adaptability: Supports various screen sizes and modes.
 -------
 
+🤝 Contributing
+-------
 
-
-
-
+Contributions are welcome! Fork the repository and submit a pull request.
+-------
 
