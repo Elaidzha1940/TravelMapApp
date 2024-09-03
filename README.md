@@ -10,23 +10,24 @@ A feature-rich iOS app built with SwiftUI and MapKit, utilizing the MVVM archite
 
 Overview
 ------
+This project demonstrates advanced iOS development techniques:
 
-- Project Setup with Assets & Custom Data Model
-- Create ViewModel with @StateObject and @EnvironmentObject for MVVM
-- Adding MapKit
-- Drop-down Menu using a List
-- Location Preview card with asymmetric Transitions
-- Custom Map Annotation Pins
-- Adding Sheet to create a Detail View for Locations
-- Update App for iPad, Landscape & dark Mode
-- Final review of MVVM Architecture and other features
-------
-
-Requirements
+- Project Setup: Initialize with assets and a custom data model.
+- MVVM with @StateObject & @EnvironmentObject: Implement the MVVM pattern for state management.
+- MapKit Integration: Add interactive maps with custom annotation pins.
+- Drop-down Menu: Use a List for an intuitive drop-down selection.
+- Location Preview Cards: Implement smooth asymmetric transitions.
+- Detail View with Sheets: Present detailed location information using Sheets.
+- Device & Mode Adaptation: Fully optimized for iPad, landscape mode, and dark mode.
+- Final Review: Ensure robust MVVM architecture and review additional features.
 -------
 
-- iOS 15.0+
-- Xcode 14.0+
-- Swift 5.0+
-------
+🛠 Requirements
+-------
+
+iOS 15.0+
+Xcode 14.0+
+
+
+
 
