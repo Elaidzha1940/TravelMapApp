@@ -30,6 +30,14 @@ This project demonstrates advanced iOS development techniques:
 - Swift 5.0+
 -------
 
+📚 Key Features
+-------
+
+- MapKit: Interactive maps with custom annotations.
+- MVVM: Clean separation of UI and logic.
+- Smooth UX: Transitions, drop-down menus, and custom UI components.
+- Device Adaptability: Supports various screen sizes and modes.
+-------
 
 
 
