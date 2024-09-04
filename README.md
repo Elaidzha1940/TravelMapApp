@@ -43,5 +43,6 @@ This project demonstrates advanced iOS development techniques:
 -------
 
 Contributions are welcome! Fork the repository and submit a pull request.
+
 -------
 
