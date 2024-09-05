@@ -4,7 +4,7 @@
 A feature-rich iOS app built with SwiftUI and MapKit, utilizing the MVVM architecture for clean and scalable code.
 ------
 
-Light Mode:
+## Light and Dark Modes
 ------
 
 <img src="https://github.com/user-attachments/assets/8c716c8b-8b8f-4732-ba8a-08cfc90f8e5a" width="208" height="405">
