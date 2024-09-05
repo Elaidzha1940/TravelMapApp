@@ -14,6 +14,8 @@ class LocationsDataService {
     
     static let location: [Location] = [
         
+        // Siem Reap
+        
         Location(
             name: "Angkor Wat",
             cityName: "Siem Reap",
@@ -60,7 +62,33 @@ class LocationsDataService {
             coordinates: CLLocationCoordinate2D(latitude: 13.4348, longitude: 103.8893),
             description: "Ta Prohm (Ta Prôhm, ALA-LC: Tā Brahm [taː prom] - Ancestor Brahma) is the modern name of a temple near the city of Siem Reap, Cambodia, approximately one kilometre east of Angkor Thom and on the southern edge of the East Baray. It was built in the Bayon style largely in the late 12th century and early 13th century and was originally called Rajavihara (Khmer: រាជវិហារ, UNGEGN: Réachvĭhar, ALA-LC: Rājvihār [riəc.vihiə]; - Royal Monastery). It was founded by the Khmer King Jayavarman VII as a Mahayana Buddhist monastery and center of learning dedicated to his mother. Almost 80,000 people were required to live in or visit the temple, including over 2,700 officials and 615 dancers.",
             imageNames: ["ta-prohm", "ta-prohm1", "ta-prohm2"],
-            link: "https://en.wikipedia.org/wiki/Ta_Prohm")
+            link: "https://en.wikipedia.org/wiki/Ta_Prohm"),
+        
+        // Phnom Penh
+        
+        Location(
+            name: "Independence Monument",
+            cityName: "Phnom Penh",
+            coordinates: CLLocationCoordinate2D(latitude: 11.5564, longitude: 104.9282),
+            description: "The Independence Monument - in Phnom Penh, capital of Cambodia, was built in 1958 to memorialise Cambodia's independence from France in 1953. It stands on a roundabout in the intersection of Norodom Boulevard and Sihanouk Boulevard in the centre of the city. It is in the form of a lotus-shaped stupa, of the style seen at the temple at Banteay Srei and other Khmer historical sites.[1] The Independence Monument was designed by the Cambodian architect Vann Molyvann, who was “personally selected and instructed” by Prince Norodom Sihanouk on how it should look like, combining “the religious and the secular.” It stands 37 metres tall.",
+            imageNames: ["independence-monument", "", ""],
+            link: "https://en.wikipedia.org/wiki/Independence_Monument_(Cambodia)"),
+        
+        Location(
+            name: "Royal Palace",
+            cityName: "Phnom Penh",
+            coordinates: CLLocationCoordinate2D(latitude: 11.5639, longitude: 104.9313),
+            description: "The Royal Palace of Cambodia is a complex of buildings which serves as the official royal residence of the King of Cambodia. Its full name in Khmer is the Preah Barom Reacheaveang Chaktomuk Serey Mongkol. The Cambodian monarchs have occupied it since it was built in the 1860s, with a period of absence when the country came into turmoil during and after the reign of the Khmer Rouge. The palace was constructed by King Norodom between 1866 and 1870; this original palace was largely demolished and rebuilt between 1912 and 1932, largely in the traditional royal style common to Southeast Asia. It is situated at the Western bank of the confluence of the Tonle Sap River and the Mekong River called Chaktomuk (an allusion to Brahma).",
+            imageNames: ["royal-palace1", "", ""],
+            link: "https://en.wikipedia.org/wiki/Royal_Palace_of_Cambodia"),
+        
+        Location(
+            name: "Tuol Sleng Genocide Museum",
+            cityName: "Phnom Penh",
+            coordinates: CLLocationCoordinate2D(latitude: 11.5489, longitude: 104.9177),
+            description: "The Tuol Sleng Genocide Museum (Saromontir Ukredth Kamm Braly Pouchsasa Tuol Sleng), or simply Tuol Sleng. Hill of the Poisonous Trees or (Strychnine Hill), is a museum chronicling the Cambodian genocide. Located in Phnom Penh, the site is a former secondary school which was used as Security Prison 21 by the Khmer Rouge regime from 1975 until its fall in 1979. From 1976 to 1979, an estimated 20,000 people were imprisoned at Tuol Sleng and it was one of between 150 and 196 torture and execution centers established by the Khmer Rouge and the secret police known as the Santebal (literally keeper of peace). On 26 July 2010, the Extraordinary Chambers in the Courts of Cambodia convicted the prison's chief, Kang Kek Iew, for crimes against humanity and grave breaches of the 1949 Geneva Conventions. He died on 2 September 2020 while serving a life sentence.",
+            imageNames: ["tuol-sleng-genocide-museum", "", ""],
+            link: "https://en.wikipedia.org/wiki/Tuol_Sleng_Genocide_Museum"),
     ]
 }
 
