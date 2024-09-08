@@ -28,9 +28,6 @@ This project demonstrates advanced iOS development techniques:
 - Device & Mode Adaptation: Fully optimized for iPad, landscape mode, and dark mode.
 - Final Review: Ensure robust MVVM architecture and review additional features.
 -------
--------
-
-
 
 🛠 Requirements
 -------
